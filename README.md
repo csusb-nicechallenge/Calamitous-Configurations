@@ -6,6 +6,7 @@ The linux server Prod-Web occasionally fails to open programs, such as Terminal 
 ## Viewing Enabled Windows Services
 ![Link](https://github.com/csusb-nicechallenge/Calamitous-Configurations/blob/master/Control%20Panel_program.PNG)
 1.	"Turn Windows features on or off" within the Control Panel > Programs
+![](https://github.com/csusb-nicechallenge/Calamitous-Configurations/blob/master/Disable.PNG)
 ## Windows Firewall Configurations
 1.	Telnet and TFTP are seperate rules within the firewall 
     - Inbound Rules govern what programs and ports are able to access the machine from remote locations, including the internet
