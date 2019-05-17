@@ -18,9 +18,14 @@ The linux server Prod-Web occasionally fails to open programs, such as Terminal 
 ## Making SSH Adjustments
 1.	Within /etc is the /ssh directory, which contains the file sshd_config
 2.	Edit the sshd_config file using a Linux text editor
+    - $ sudo vim /etc/ssh/sshd_conf
     - Different distributions of Linux may have different text editors
-    - Although many function similarly, the commands necessary to save text or exit the file will usually differ 
+    - Although many function similarly, the commands necessary to save text or exit the file will usually differ
+![](https://github.com/csusb-nicechallenge/Calamitous-Configurations/blob/master/last%20part.PNG)
 3.	Remove the # from PubkeyAuthentication yes, as well as AuthorizedKeysFile .ssh/authorized_keys 
 4.	Change PermitEmptyPasswords to no
 5.	Change UsePAM to yes
 6.	Change PermitRootLogin to without-password
+## Documentation
+- Written by E. Leiss
+- Edited by J. Hyun
