@@ -13,6 +13,7 @@ The linux server Prod-Web occasionally fails to open programs, such as Terminal 
     - Outbound Rules are the program and port connections permitted (or denied) to leave the host machine
 ## Discovering the Linux Version
 1.	/etc directory contains the system-release file, which will display the OS distribution when accessed with the command cat
+![](https://github.com/csusb-nicechallenge/Calamitous-Configurations/blob/master/sys%20release.PNG)
 ## Making SSH Adjustments
 1.	Within /etc is the /ssh directory, which contains the file sshd_config
 2.	Edit the sshd_config file using a Linux text editor
