@@ -4,6 +4,7 @@ Two machines require security configurations in order to be up to company standa
 ## Known Issues
 The linux server Prod-Web occasionally fails to open programs, such as Terminal and Web Browser. To fix this issue, simply reboot the machine and log back into the playerone account.
 ## Viewing Enabled Windows Services
+![Link](https://github.com/csusb-nicechallenge/Calamitous-Configurations/blob/master/Control%20Panel_program.PNG)
 1.	"Turn Windows features on or off" within the Control Panel > Programs
 ## Windows Firewall Configurations
 1.	Telnet and TFTP are seperate rules within the firewall 
